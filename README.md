@@ -1,8 +1,14 @@
-ChatPHPComet
+DjuChat
 ============
 
-Implementation of chat using PHP and Comet long polling
+Implementation of real-time chat.
 
-First iteration: simple polling of server
-Next iteration: long polling?
-Next iteration: websockets
+DjuChat/client - Simple front end built in Javascript.
+DjuChat/server - PHP powered server for non-Websocket browsers. Uses polling to determine presence and messaging.
+DjuChat/websocket - Node.js powered server for Websocket compliant browsers. Uses broadcasting for presence and messaging.
+
+All chat data is persisted in memcached.
+
+Improvements:
+- Functional UI with chat sending
+- Design with scalability in mind
