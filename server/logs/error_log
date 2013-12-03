@@ -1,0 +1,18 @@
+[Thu Nov 28 01:09:07 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/favicon.ico
+[Thu Nov 28 01:14:20 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/favicon.ico
+[Thu Nov 28 01:14:26 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/favicon.ico
+[Thu Nov 28 01:15:36 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/index.htm
+[Thu Nov 28 01:23:32 2013] [error] [client ::1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/favicon.ico
+[Mon Dec 02 18:05:46 2013] [error] [client ::1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/favicon.ico
+[Mon Dec 02 18:06:15 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/favicon.ico
+[Mon Dec 02 18:17:42 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/ajax/login, referer: http://client.localhost/
+[Mon Dec 02 18:18:50 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/ajax/login, referer: http://client.localhost/
+[Mon Dec 02 18:19:30 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/ajax/login, referer: http://client.localhost/
+[Mon Dec 02 18:19:47 2013] [error] [client 127.0.0.1] File does not exist: /Users/djumba/Documents/git/ChatPHPComet/server/ajax/login
+[Mon Dec 02 18:39:58 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Memcache' not found in /Users/djumba/Documents/git/ChatPHPComet/server/classes/Persistence.class.php on line 16, referer: http://client.localhost/
+[Mon Dec 02 18:40:10 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Memcache' not found in /Users/djumba/Documents/git/ChatPHPComet/server/classes/Persistence.class.php on line 16
+[Mon Dec 02 18:50:14 2013] [error] [client 127.0.0.1] PHP Notice:  Memcache::connect(): Server localhost (tcp 11211) failed with: Connection refused (61) in /Users/djumba/Documents/git/ChatPHPComet/server/classes/Persistence.class.php on line 17, referer: http://client.localhost/
+[Mon Dec 02 18:50:14 2013] [error] [client 127.0.0.1] PHP Warning:  Memcache::connect(): Can't connect to localhost:11211, Connection refused (61) in /Users/djumba/Documents/git/ChatPHPComet/server/classes/Persistence.class.php on line 17, referer: http://client.localhost/
+[Mon Dec 02 18:53:03 2013] [error] [client 127.0.0.1] hello, referer: http://client.localhost/
+[Mon Dec 02 18:53:21 2013] [error] [client 127.0.0.1] hello, referer: http://client.localhost/
+[Mon Dec 02 19:19:51 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function heartbeat() on a non-object in /Users/djumba/Documents/git/ChatPHPComet/server/ajax/heartbeat.php on line 10, referer: http://client.localhost/
