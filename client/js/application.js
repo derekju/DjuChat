@@ -47,12 +47,12 @@ NS.Network = {
 	heartbeat: function () {
 		$.ajax({
 			type: 'POST',
-			url: 'http://server.localhost/ajax/heartbeat.php',
+			url: 'http://localhost:8000/ajax/heartbeat',
 			data: {
 				user: NS.getUserName()
 			},			
 			success: function (data, textStatus, jqXHR) {
-				var users = data.users;
+				var users = data.data;
 				NS.UI.updateOnlineUsers(users);
 			}
 		});
@@ -125,9 +125,9 @@ $(function() {
 
 	NS.UI.boot();
 
-	if (typeof WebSocket == "function") {
-		NS.Network.connectWebSocket();
-	} else {
+	//if (typeof WebSocket == "function") {
+	//	NS.Network.connectWebSocket();
+	//} else {
 		NS.Network.heartbeat();
 		setInterval(
 			function () {
@@ -135,5 +135,5 @@ $(function() {
 			},
 			5000
 		);
-	}
+	//}
 });
