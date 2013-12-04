@@ -7,7 +7,7 @@ DjuChat/client - Simple front end built in Javascript.
 
 DjuChat/server - PHP powered server for non-Websocket browsers. Uses polling to determine presence and messaging.
 
-DjuChat/websocket - Node.js powered server for Websocket compliant browsers. Uses broadcasting for presence and messaging.
+DjuChat/nodeserver - Node.js powered server for both non-Websocket and Websocket browsers. Folds logic of the PHP server into a node implementation as well as the Websocket functionality.
 
 All chat data is persisted in memcache.
 
